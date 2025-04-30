@@ -1,0 +1,105 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media (min-width: 768px){
+  .container {
+       width: 750px;
+      }  
+   }
+   @media (min-width: 992px){
+     .container {
+       width: 970px;
+     }  
+   }
+   @media (min-width: 1200px){
+     .container {
+       width: 1170px;
+     }  
+   }
+   @font-face {
+     font-family: 'Inter';
+     src: url('fonts/Inter-VariableFont_slnt\,wght.ttf');
+    }
+    body {
+      font-family: "Inter", sans-serif;
+      background-color: #141414;
+      margin: 0;
+  }
+  .social-links {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+ .social-links .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #1f1f1f;
+    width: 350px;
+    height: 600px;
+    margin: 50% auto;
+  
+     }
+     .social-links .container .iamge {
+      display: flex;
+      justify-content: center;
+      margin: 25px auto;
+     }
+     .social-links .container .iamge img {
+       width: 100px;
+       border-radius: 50%;
+     }
+     .social-links .container .text {
+      display: block;
+     }
+     .social-links .container .text h2 {
+      display: flex;
+      color: white;
+      justify-content: center;
+     }
+     .social-links .container .text .one {
+      display: flex;
+      justify-content: center;
+      color: #c4f82A;
+      font-weight: bold;
+      line-height: 0;
+      
+     }
+     .social-links .container .text .two {
+      color: white;
+      display: flex;
+      justify-content: center;
+      line-height: 4.8;
+     }
+     .social-links .container .Content {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      grid-gap: 10px;
+      margin-top: -20px;
+     } 
+     .social-links .container .Content  a {
+      text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #333333;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+     }
+     .social-links .container .Content  a:hover {
+       background-color: #c4f82A;
+       color: black;
+     }
+
+     @media (min-width: 768px){
+      .container {
+           width: 500px;
+          }  
+       }
